@@ -47,7 +47,7 @@ GEM
     coffee-script (2.3.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.9.1)
+    coffee-script-source (1.8.0)
     commonjs (0.2.7)
     devise (3.4.1)
       bcrypt (~> 3.0)
@@ -142,6 +142,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  coffee-script-source (= 1.8.0)
   devise
   font-awesome-rails
   jbuilder (~> 2.0)
@@ -150,6 +151,7 @@ DEPENDENCIES
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   sqlite3
+  therubyracer
   turbolinks
   twitter-bootstrap-rails!
   tzinfo-data
